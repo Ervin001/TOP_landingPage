@@ -4,3 +4,24 @@
   box-sizing: border-box;
   font-family: "roboto", sans-serif;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cnt-1 {
+  background-color: red;
+}
+.cnt-2 {
+  background-color: yellow;
+}
+.cnt-3 {
+  background-color: blue;
+}
+.cnt-4 {
+  background-color: violet;
+}
+.cnt-5 {
+  background-color: pink;
+}
