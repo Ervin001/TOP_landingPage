@@ -58,11 +58,19 @@ a {
   width: 500px;
 }
 
+.btn-1 {
+  margin-top: 25px;
+}
+
+.signup-msg {
+  display: inline;
+}
+
 .sign-up {
   background-color: rgb(79, 128, 238);
   color: #fff;
   padding: 10px 20px;
-  margin-top: 10px;
+
   border: none;
   border-radius: 4px;
 }
@@ -154,5 +162,20 @@ a {
   display: inline-flex;
 }
 .cnt-5 {
-  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+  height: 100px;
+  align-items: center;
+  font-size: 12px;
 }
